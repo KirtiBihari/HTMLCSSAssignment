@@ -4,8 +4,6 @@ nav{
 }
 
 
-
-
 nav .logo img{
 height: 2.6em;
 width: 2.6em;
@@ -16,7 +14,7 @@ nav .logo span{
     font-weight: bold;
     color: #fafbfd;
     line-height: 2em;
-    font-family: 'Sigmar+One',serif;
+    font-family: 'Abril+Fat',serif;
 }
 
 nav ul.navlist-desktop{
@@ -177,7 +175,7 @@ img{
 }
 
 .course-info{
-    height: 22em;
+    /* height: 22em; */
     width: 100vw;
 }
 .course-heading{
@@ -235,7 +233,7 @@ img{
 
 @media(max-width:768px){
     .full-widthcontainer blockquote{
-       
+        line-height: 1.5em;
         padding:.3em;
         
     }
@@ -276,7 +274,7 @@ img{
         flex-wrap: wrap;
     }
     .inner-col-group{
-        width: 100vw;
+        width: 97vw;
     }
     nav ul.navlist-desktop{
         display: none;
