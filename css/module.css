@@ -153,6 +153,15 @@ img{
     width: 97%;
     line-height: 1.2em;
 }
+.preview .content p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 160px;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+}
 .inner-col-group{
     width: 48vw;
     display: flex;
@@ -175,7 +184,7 @@ img{
 }
 
 .course-info{
-    /* height: 22em; */
+    margin-bottom: .2em;
     width: 100vw;
 }
 .course-heading{
@@ -319,6 +328,18 @@ img{
         text-overflow: ellipsis;
         display: inline-block;
     }
+
+    .course_text{
+        width: 80vw;
+    }
     
     
+}
+
+@media (max-width: 375px){
+    .full-widthcontainer blockquote {
+        line-height: 1.5em;
+        padding: .9em;
+    }
+
 }
